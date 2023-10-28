@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+    <a href="./index.html">ローカルストレージを使うバージョンはこちら</a>
+        <h1>ローカルストレージなしバージョン</h1>
+  <script type="importmap">
+      {
+        "imports": {
+          "app": "./initApp.js",
+          "e" : "./e.js",
+          "loginform" : "./loginform.js",
+          "firebase-app" : "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js",
+          "firebase-auth" : "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js",
+          "update" : "./update.js"
+        }
+      }
+    </script>
+
+  <script type="module" src="main2.js"></script>
+</body>
+
+</html>
+
